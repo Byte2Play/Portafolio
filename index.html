@@ -1,1 +1,61 @@
-HOLA
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .gallery {
+            list-style: none;
+            padding: 0;
+        }
+        .gallery-item {
+            margin-bottom: 20px;
+            overflow: hidden;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .gallery-item img {
+            width: 40%; /* Ajusta el ancho al 50% */
+            height: auto;
+            display: block;
+            margin: auto; /* Centra la imagen horizontalmente */
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Portafolio</h1>
+        <ul class="gallery-item">
+            <li class="gallery-item ">
+                <img src="sche_golf.png" alt="Esquematico de la tarjeta.">
+            </li>
+            <li class="gallery-item">
+                <img src="pcb_golf.png" alt="Diseño de la tarjeta">
+            </li>
+            <li class="gallery-item">
+                <img src="render_golf.png" alt="Diseño de la tarjeta en 3D">
+            </li>
+            <li class="gallery-item">
+                <img src="real_golf.png" alt="Diseño de la tarjeta real">
+            </li>
+            <!-- Agrega más elementos li para más imágenes -->
+        </ul>
+    </div>
+</body>
+</html>
